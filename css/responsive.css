@@ -1,0 +1,67 @@
+@media screen and (max-width: 767px) {
+    .bottom {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+     
+    header {
+        margin-left: 20px;
+        justify-content: flex-start;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 30px;
+    }
+
+    .list-flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    li {
+        flex-basis: calc(100% / 3 - 20px);
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    header {
+        margin-bottom: 30px;
+    }
+
+    .container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+
+    .video {
+        display: flex;
+    }
+
+    .card-video {
+        flex-basis: 60%;
+        max-height: 100%;
+    }
+
+    .card-recipe {
+        flex-basis: 40%;
+    }
+
+    iframe {
+        max-height: 100%;
+    }
+
+    .list-flex {
+        flex-direction: column;
+    }
+}
