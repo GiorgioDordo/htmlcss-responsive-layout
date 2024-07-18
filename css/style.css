@@ -1,0 +1,119 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montsterrat', 'Helvetica Neue', sans-serif;
+    background-color: rgb(246,245,243);
+}
+
+
+/* GENERAL */
+
+.yellow {
+    color: rgb(255,150,20);
+}
+
+.flex {
+    display: flex;
+}
+
+/* HEADER */
+
+header {
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Nerko One', cursive;
+    font-size: 42px;
+}
+
+h5 {
+    color: rgb(146, 146, 146);
+}
+
+/* MAIN */
+
+/******** SECTION TIRAMISU-VIDEO ********/
+
+.container {
+    max-width: 412px;
+    margin: 20px;
+}
+
+.video {
+    background-color: white;
+}
+
+.title-video {
+    color: rgb(78,57,105);
+}
+
+.rating {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-rate {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(255,150,20);
+    color: white;
+    border: none;
+}
+
+/*KCAL INFO */
+
+.kcal-info {
+    max-width: 80%;
+    margin: 30px auto;
+    background-color: rgb(246,245,243);
+}
+
+.kcal {
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.veg {
+    padding: 15px;
+}
+
+.spacing {
+    border-bottom: 1px solid;
+    margin: 0 10px 0 10px;
+    color: lightgrey;
+}
+
+.kcal-count {
+    padding: 3px 4px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+}
+
+/* LIST RECIPE */
+
+.list-recipe {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list-flex {
+    flex-direction: column;
+    gap: 10px;
+}
