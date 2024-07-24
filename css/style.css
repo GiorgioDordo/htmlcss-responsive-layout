@@ -118,3 +118,41 @@ ul {
     flex-direction: column;
     gap: 10px;
 }
+
+
+/* SOCIALS */
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.socials {
+    padding: 15px;
+    border-radius: 45%;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 10px 1px grey;
+}
+
+.facebook {
+    color: rgb(26,119,243);
+}
+
+.twitter {
+    color: rgb(2,158,255);
+}
+
+.instagram {
+    color: violet;
+}
+
+.pinterest {
+    color: red;
+}
+
+.youtube {
+    color: red;
+}
+
