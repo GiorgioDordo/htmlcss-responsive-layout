@@ -120,6 +120,7 @@ ul {
 
 .list-flex {
     flex-direction: column;
+    padding-left: 45px;
     gap: 10px;
 }
 
@@ -170,3 +171,14 @@ h1 {
     line-height: 1.8;
 }
 
+.tiramisu-image {
+    text-align: center;
+}
+
+.tiramisu {
+    width: 300px;
+}
+
+.title-recipe {
+    margin-bottom: 20px;
+}

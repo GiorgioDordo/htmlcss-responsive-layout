@@ -2,18 +2,19 @@
     .bottom {
         display: none;
     }
+
+    .banner {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
-     
-    header {
-        margin-left: 20px;
-        justify-content: flex-start;
-    }
+    
+    b
 
-    .container {
-        max-width: 100%;
-        margin: 30px;
+    header {
+        padding-left: 20px;
+        justify-content: flex-start;
     }
 
     .list-flex {
@@ -38,6 +39,12 @@
         font-size: 18px;
     }
 
+    .tiramisu-image {
+        float: left;
+        padding: 0 10px 0px 0;
+        margin-bottom: -20px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -47,7 +54,7 @@
     }
 
     .container {
-        max-width: 1400px;
+        max-width: 1000px;
         margin: 0 auto;
     }
 
@@ -79,5 +86,10 @@
 
     .social-links {
         margin-top: 30px;
+    }
+
+    .banner {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
